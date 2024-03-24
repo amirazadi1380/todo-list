@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import {
     BrowserRouter as Router,
     Route,
 } from 'react-router-dom';
+import { bindActionCreators } from 'redux';
 
 import { setItems } from '../../redux/actions/todo';
 import List from '../List';
